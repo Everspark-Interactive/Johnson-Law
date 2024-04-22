@@ -1,0 +1,207 @@
+/*
+Theme Name: Jupiter
+Theme URI: http://themeforest.net/user/artbees
+Author: Artbees
+Author URI: http://themeforest.net/user/artbees
+Version: 5.7
+Description: A Beautiful, Professional and Ultimate Wordpress Theme Made by Artbees. Jupiter is a Clean, Flexible, fully responsive and retina ready Wordpress theme. Its smart and hand crafted environment allows you to Build outstanding websites easy and fast.
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: mk_framework
+Domain Path: /languages/
+*/
+
+
+
+/*
+
+Main Stylesheet file is located at assets/stylesheet/core-styles.css
+
+*/
+
+	@font-face {font-family: "Poppins";font-display: auto;font-fallback: ;font-weight: 400;src: url(/wp-content/uploads/2021/05/poppins-regular.ttf) format('TrueType'); font-display: swap;} 
+	@font-face {font-family: "Poppins";font-display: auto;font-fallback: ;font-weight: 600;src: url(/wp-content/uploads/2021/05/poppins-semibold.ttf) format('TrueType'); font-display: swap;}
+	 @font-face {font-family: "Poppins";font-display: auto;font-fallback: ;font-weight: 900;src: url(/wp-content/uploads/2021/05/poppins-black.ttf) format('TrueType'); font-display: swap;} 
+	 @font-face {font-family: "Poppins";font-display: auto;font-fallback: ;font-weight: 700;src: url(/wp-content/uploads/2021/05/poppins-bold.ttf) format('TrueType'); font-display: swap;}	
+
+.design-box {border: 2px solid #e0e0e0;}
+.design-box .widgettitle {color: #fff !important;background: #a73d2c;padding: 18px 22px 20px;text-transform: uppercase;font-size: 16px !important;line-height: 1;margin-bottom: 0;}
+.design-box ul {padding: 20px 20px 33px 30px;}
+.design-box ul a {padding: 12px 20px 8px;color: #000 !important;font-size: 16px;position: relative;}
+.design-box ul a::after {content: "";position: absolute;width: 8px;height: 8px;margin-top: 11px;top: 6px;left: 0;background: #045f79;}
+.page-id-1444 .master-holder {margin-top: 50px !important;}
+.design-box.widget_social_networks .widgettitle {margin-bottom: 15px;}
+.mk-blog-modern-item .blog-social-share li{margin: 3px 0px;}
+.postid-1455 .theme-content {margin-top: 50px;}
+.blog-post-type-image {margin-top: 50px !important;}
+.single .intro-left {display: none;}
+.mk-blog-modern-item .blog-social-share li .googleplus-share {display: none;}
+
+
+.custom-navigation a {padding: 10px 14px;line-height: 12px;	font-size: 12px;margin: 0 6px;font-weight: 700;float: none;	border: 2px solid rgba(0,0,0,.4);display: inline-block;color: rgba(0,0,0,.4);}
+#theme-page .theme-page-wrapper .theme-content.custom-navigation{padding: 65px 0 !important;}
+
+
+/******* New Home Page *******/
+.center-text-align {display: flex; align-items: center; justify-content: center; padding: 30px 15px;}
+.padding-left-right-none > div {padding-right: 0; padding-left: 0;}
+.home-center-text h2 {color: #0e6088 !important; font-family: "Montserrat"; font-weight: 500 !important;}
+.home-center-text p {margin: 10px 0 0 0; font-size: 19px; color: #000000; line-height: 37px; display: inline-block;}
+.center-text-align .vc_column-inner {padding-left: 0; padding-right: 0;}
+.padding-left-right-none figure, .padding-left-right-none figure img, .padding-left-right-none figure .vc_single_image-wrapper {width: 100%;}
+.personal-injury-section .center-text-align .home-center-text {padding-left:30px;}
+.personal-injury-section .center-text-align:nth-child(2n) .home-center-text {padding-left: 0; padding-right: 30px;}
+.personal-injury-section {padding: 30px 0;}
+.let-us-help-you {padding: 50px 0 70px;}
+.let-us-help-you .vc_column-inner  {padding: 0 55px;}
+.let-us-help-you h2 {text-align: center; color: #fff !important; margin: 0 0 30px 0;}
+.let-us-help-you-box {background: #3e80a0; border: 5px solid #12658e; padding: 25px 30px;}
+.let-us-help-you-box p {font-size: 19px; line-height: 37px; color: #fff; margin: 0; text-align: center;}
+
+.client-reviews-section {padding: 112px 0 52px;}
+.client-reviews-title {padding: 0 15px;}
+.client-reviews-title h3 {font-size: 27px !important; color: #0e6088 !important; text-transform: unset !important; margin: 0 0 67px 0; font-weight: 500 !important; font-family: "Montserrat";}
+.client-reviews-box .wpb_wrapper {background-color: #fff; border-radius: 10px; -webkit-border-radius: 10px; min-height: 570px; background-image: url('assets/images/quotes-icon.png');
+background-repeat: no-repeat; background-position: right 40px bottom 65px;}
+.client-reviews-box .mk-text-block {padding: 10px 30px 12px;}
+.client-reviews-box .mk-title-box {background:#0e6088; padding: 28px 30px; margin: 0; border-radius: 10px 10px 0 0; -webkit-border-radius: 10px 10px 0 0;}
+.client-reviews-box .wpb_wrapper > h3, .client-reviews-box .mk-title-box h3 {margin: 0; text-transform: unset; font-size: 30px; color: #fff; font-weight: 500; font-family: "Montserrat";}
+.client-reviews-box .mk-text-block p {font-size: 19px; color: #000000; line-height: 37px; margin-bottom: 0;}
+.client-reviews-bottom-title h4 {color: #0e6088; font-size: 26px; margin: 54px 0 0 0;}
+.client-reviews-row.wpb_row.vc_inner {margin-right: -15px !important; margin-left: -15px !important;}
+
+.team-slider .wpb_wrapper {background: #fff; box-shadow: 3px 5px 9px rgba(0,0,0,0.08); -webkit-box-shadow: 3px 5px 9px rgba(0,0,0,0.08);}
+.team-slider figure.wpb_wrapper {box-shadow: none; -webkit-box-shadow: none; width: 100%;}
+.team-slider figure.wpb_wrapper .vc_single_image-wrapper {width: 100%;}
+.team-slider figure.wpb_wrapper .vc_single_image-wrapper img {width: 100%;}
+.team-slider .mk-text-block {padding: 15px 25px 44px;}
+.team-slider .mk-text-block h4 {margin: 0 0 7px 0; font-size: 27px; color:#0e6088; font-weight: 500; font-family: "Montserrat"; }
+.team-slider .mk-text-block p {font-size: 19px; color: #000; line-height: 30px; margin: 0;}
+.team-slider .team-slid-btn {font-size: 14px; color:#fff; font-weight: 500; font-family: "Montserrat"; text-transform: uppercase; background: #0e6088; padding: 6px 50px; margin: 27px 0 0 0;
+clear: both; display: inline-block; border: 2px solid transparent; transition: 0.5s; -webkit-transition: 0.5s;}
+.team-slider .team-slid-btn:hover {border-color: #0e6088; background-color: transparent; color: #0e6088; transition: 0.5s; -webkit-transition: 0.5s;}
+.team-slider .slick-list {padding: 30px 0;}
+.team-slider .slick-arrow {background-image: url('assets/images/arrow-img.png'); color:transparent; border: 0; background-color:transparent; width: 34px; height: 54px; background-position: -21px 0;
+padding: 0; position: absolute; top: 50%; transform: translate(0,-50%); left: -40px;}
+.team-slider .slick-next.slick-arrow {right: -40px; left: auto; background-position: -94px 0px;}
+.team-slider > div {padding: 0;}
+.our-team-title {margin: 50px 0 0 0;}
+.our-team-title h2 {color: #0e6088}
+.team-slider {margin-bottom: 40px;}
+.three-box-line-height-only {line-height: 1.3em !important;}
+
+
+@media only screen and (max-width:1366px){
+	.team-slider {padding: 0px 40px;}
+	.team-slider .slick-arrow {left: -30px;}
+	.team-slider .slick-next.slick-arrow {right: -30px; left: auto;}
+}
+
+@media only screen and (max-width:1200px){
+	.personal-injury-section {padding: 30px 20px;}	
+	.home-center-text h2, .let-us-help-you h2, .our-team-title h2 {font-size: 30px;}
+	.home-center-text p, .let-us-help-you-box p, .client-reviews-box .mk-text-block p {font-size: 18px; line-height: 34px;}
+	.client-reviews-row.wpb_row.vc_inner {margin-right: 5px !important; margin-left: 5px !important;}
+	.client-reviews-bottom-title h4, .team-slider .mk-text-block h4 {font-size: 24px;}
+	.team-slider .mk-text-block p {font-size: 18px; line-height: 28px;}
+	.team-slider {padding: 0px 50px;}
+	.team-slider .slick-arrow {background-size: auto 44px; width: 25px; height: 47px; background-position: -18px 0; left: -20px;}
+	.team-slider .slick-next.slick-arrow {background-position: -80px 0px; right: -20px; left: auto;}
+	.client-reviews-section {padding: 80px 0 50px;}
+	.three-box-line-height-only {font-size: 30px !important;}
+	.three-box-style p {font-size: 16px;}
+}
+
+@media only screen and (max-width:1024px){
+	.center-text-align {padding: 20px 10px; flex-wrap: wrap;}
+	.center-text-align .vc_col-sm-6 {width: 100%;}
+	.personal-injury-section .center-text-align .home-center-text {padding: 30px 0 10px 0;}
+	.personal-injury-section .center-text-align:nth-child(2n) .home-center-text {padding: 30px 0 10px 0;}
+	.personal-injury-section .center-text-align:nth-child(2n) .vc_col-sm-6:first-child {order: 2;}
+	.client-reviews-section {padding: 70px 0 50px;}
+	.client-reviews-title h3 {font-size: 24px !important; margin: 0 0 50px 0;}
+	.client-reviews-box .mk-title-box {padding: 21px 20px;}
+	.client-reviews-box .wpb_wrapper > h3, .client-reviews-box .mk-title-box h3 {font-size: 24px;}
+	.home-center-text p, .let-us-help-you-box p, .client-reviews-box .mk-text-block p {font-size: 16px; line-height: 28px;}
+	.client-reviews-box .mk-text-block {padding: 10px 20px 15px;}
+	.client-reviews-bottom-title h4, .team-slider .mk-text-block h4 {font-size: 21px;}
+	.client-reviews-bottom-title h4 {margin: 48px 0 0 0;}
+	.home-center-text h2, .let-us-help-you h2, .our-team-title h2 {font-size: 28px;}
+	.our-team-title {margin: 70px 0 0 0;}
+	.team-slider {padding: 0 40px;}
+	.team-slider .mk-text-block p {font-size: 16px; line-height: 26px;}
+	.three-box-line-height-only {font-size: 25px !important;}
+	.three-box-style p {font-size: 15px;}
+	.three-box-style p br {display: none;}
+	.three-box-style-second-only {font-size: 18px; min-height: 55px;}
+}
+
+
+@media only screen and (max-width:767px){
+.mk-blog-single .blog-single-title {font-size: 24px;}
+#theme-page .theme-page-wrapper .theme-content.custom-navigation {padding: 5px 0 25px 0 !important;text-align: center;}
+
+	.home-center-text h2, .let-us-help-you h2, .our-team-title h2 {font-size: 26px;}
+	.home-center-text p {margin: 0;}
+	.client-reviews-box .wpb_wrapper {min-height: unset;}
+	.client-reviews-box {margin: 0 0 30px 0;}
+	.client-reviews-bottom-title h4 {margin: 0px 0 0 0;}
+	.client-reviews-bottom-title h4, .team-slider .mk-text-block h4 {font-size: 20px;}
+	.let-us-help-you .vc_column-inner {padding: 0px 30px;}
+	.let-us-help-you h2 {margin: 0 0 10px 0;}
+	.team-slider .slick-list {padding: 10px 0;}
+	.team-slider .team-slid-btn {font-size: 13px; padding: 5px 40px;}
+	.client-reviews-box .wpb_wrapper {background-size: 60px auto;}
+	.three-box-style-second-only {min-height: unset;}
+}
+
+@media only screen and (max-width:640px){
+    .blog-modern-social-section{margin-left: 10px;}
+    .mk-blog-modern-item .mk-blog-meta{margin: 0 20px 20px 80px;}
+    .the-excerpt p {font-size: 16px;}
+    .mk-blog-modern-item{margin-bottom: 20px;}
+
+    .home-center-text h2, .let-us-help-you h2, .our-team-title h2 {font-size: 22px;}
+    .home-center-text p, .let-us-help-you-box p, .client-reviews-box .mk-text-block p {font-size: 15px; line-height: 26px;}
+    .center-text-align {padding: 15px 0px;}
+    .let-us-help-you {padding: 50px 0;}
+    .client-reviews-section {padding: 50px 0;}
+    .client-reviews-title h3 {font-size: 20px !important; margin: 0 0 40px 0;}
+    .client-reviews-box .mk-title-box {padding: 18px 20px;}
+    .client-reviews-box .wpb_wrapper > h3, .client-reviews-box .mk-title-box h3 {font-size: 21px;}
+    .client-reviews-box .mk-text-block {padding: 0px 20px 20px;}
+    .client-reviews-box .wpb_wrapper {background-size: 50px auto;}
+    .client-reviews-bottom-title h4, .team-slider .mk-text-block h4 {font-size: 18px;}
+    .our-team-title {margin: 50px 0 0 0;}
+    .team-slider .mk-text-block p {font-size: 15px; line-height: 24px;}
+}
+
+@media only screen and (max-width:480px){
+    .mk-blog-modern-item .the-title {line-height: 20px !important;}
+    .mk-blog-modern-item .the-title a{font-size: 18px;}
+    .mk-blog-single .blog-single-title {font-size: 20px;}
+
+    .personal-injury-section {padding: 20px 15px;}
+    .home-center-text h2, .let-us-help-you h2, .our-team-title h2 {font-size: 20px;}
+    .let-us-help-you .vc_column-inner {padding: 0 15px;}
+    .let-us-help-you-box {padding: 20px 15px;}
+    .client-reviews-title h3 {font-size: 18px !important; margin: 0 0 30px 0;}
+    .client-reviews-box .wpb_wrapper > h3, .client-reviews-box .mk-title-box h3 {font-size: 20px;}
+    .client-reviews-box .mk-title-box {padding: 15px;}
+    .client-reviews-box .mk-text-block {padding: 0px 14px 20px;}
+    .client-reviews-bottom-title h4, .team-slider .mk-text-block h4 {font-size: 17px;}
+    .team-slider {padding: 0 25px;}
+    .team-slider .mk-text-block {padding: 10px 15px 34px;}
+    .team-slider .team-slid-btn {padding: 4px 35px;}
+    .team-slider .slick-arrow {background-size: auto 38px; width: 21px; height: 41px; background-position: -16px 0; left: -15px;}
+    .team-slider .slick-next.slick-arrow { background-position: -70px 0px; right: -15px; left: auto;}
+    .team-slider .slick-list {padding: 0px 0 10px;}
+}
+
+@media (max-width: 425px){
+#wprmenu_bar .bar_logo {
+    height: 45px !important;
+    width: 225px !important;
+}
+}
+
